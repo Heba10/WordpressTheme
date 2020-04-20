@@ -5,3 +5,8 @@
 .single-post h2{
     color: brown;
 }
+
+.post-item
+{
+    margin-bottom: 24px;
+}
