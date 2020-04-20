@@ -14,4 +14,30 @@ add_action( "wp_enqueue_scripts","addAssets" );
 //add options
 add_theme_support( "post-thumbnails" );
 
+//add links to navbar
+// add them saport of menu
+add_theme_support( "menus" );
+// add menu location
+register_nav_menus(array(
+    'top-nav'=>'Main Navigation',
+    'footer-nav'=>'Footer Navigation',
+));
+//then render the manu on navbar on header
+
+//Custom Post Type CPT
+
+function addSkillsPostType(){
+    register_post_type("skills" ,array(
+        "label" => "Skills",
+        "public" => true,
+        "menu_position" => 4,
+        "supports" => ["title"],
+        'taxonomies' => ['category']
+    ));
+
+}
+
+add_action("init" ,"addSkillsPostType")
+
+
 ?>
