@@ -8,10 +8,10 @@ if(have_posts()):
     <div class="row">
 <div class="col-md-10">
     <?php the_post_thumbnail("medium_large");  ?>
-    <h2><?php the_title();?></h2>
-   <h3> <?php echo get_field("company_name");?> </h3>
-   <p> <?php echo get_field("start_date");?> </p>
-   <p> <?php echo get_field("role");?> </p>
+    <h2><p>THE TITLE</p><?php the_title();?></h2>
+   <h3><p>THE COMPANY NAME</p> <?php echo get_field("company_name");?> </h3>
+   <p> <p>THE START DATE</p><?php echo get_field("start_date");?> </p>
+   <p><p>THE ROLE</p> <?php echo get_field("role");?> </p>
   
  
 </div>
