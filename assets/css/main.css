@@ -33,7 +33,7 @@ nav ul li{
     color: #fff;
     height: 60px; }
 
-    h1,h2,h3 {
+h1,h2,h3 {
         margin: 0;
         font-weight: 40; }
         h1.lg-heading,
@@ -47,13 +47,12 @@ nav ul li{
           padding: 0.2rem 1rem;
           background: rgba(73, 73, 73, 0.5); }
       
-      a {
+a {
         color: #fff;
         text-decoration: none; }
       
-      
-      .text-secondary {
-        color: #eece1a;
+.text-secondary {
+        color: #eece1a !important;
          }
       
       
