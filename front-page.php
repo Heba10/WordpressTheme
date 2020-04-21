@@ -1,6 +1,19 @@
 
    <?php get_header(); ?>
-   <section class="skills">
+
+   <main  id="home">
+</div>
+    <h1 class="lg-heading">
+      Heba
+      <span class="text-secondary"> HeGaze</span>
+    </h1>
+    <h2 class="sm-heading">
+      Web Developer, Programmer, Game Designer & Entrepreneur
+    </h2>
+    </main>
+
+
+   <!-- <section class="skills">
     <h1>Skills</h1>
 
     <div class="container">
@@ -72,7 +85,7 @@
 
             ?>
     </div>
-</section>
+</section> -->
     
                 
                 
